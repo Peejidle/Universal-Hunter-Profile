@@ -1,0 +1,172 @@
+[
+  {
+    "name":       "Chatacabra",
+    "type":       "Amphibian",
+    "games":      ["Wilds"]
+  },
+  {
+    "name":       "Quematrice",
+    "type":       "Brute Wyvern",
+    "games":      ["Wilds"]
+  },
+  {
+    "name":       "Lala Barina",
+    "type":       "Temnoceran",
+    "games":      ["Wilds"]
+  },
+  {
+    "name":       "Congalala",
+    "type":       "Fanged Beast",
+    "games":      ["Wilds"]
+  },
+  {
+    "name":       "Balahara",
+    "type":       "Leviathan",
+    "games":      ["Wilds"]
+  },
+  {
+    "name":       "Doshaguma",
+    "type":       "Fanged Beast",
+    "games":      ["Wilds"]
+  },
+  {
+    "name":       "Uth Duna",
+    "type":       "Leviathan",
+    "games":      ["Wilds"]
+  },
+  {
+    "name":       "Rompopolo",
+    "type":       "Brute Wyvern",
+    "games":      ["Wilds"]
+  },
+  {
+    "name":       "Rey Dau",
+    "type":       "Flying Wyvern",
+    "games":      ["Wilds"]
+  },
+  {
+    "name":       "Nerscylla",
+    "type":       "Temnoceran",
+    "games":      ["Wilds", "Generations Ultimate", "MH4", "MH4U"]
+  },
+  {
+    "name":       "Hirabami",
+    "type":       "Leviathan",
+    "games":      ["Wilds"]
+  },
+  {
+    "name":       "Ajarakan",
+    "type":       "Fanged Beast",
+    "games":      ["Wilds"]
+  },
+  {
+    "name":       "Nu Udra",
+    "type":       "Cephalopod",
+    "games":      ["Wilds"]
+  },
+  {
+    "name":       "Guardian Doshaguma",
+    "type":       "Construct",
+    "games":      ["Wilds"]
+  },
+  {
+    "name":       "Guardian Rathalos",
+    "type":       "Construct",
+    "games":      ["Wilds"]
+  },
+  {
+    "name":       "Jin Dahaad",
+    "type":       "Leviathan",
+    "games":      ["Wilds"]
+  },
+  {
+    "name":       "Guardian Ebony Odogaron",
+    "type":       "Construct",
+    "games":      ["Wilds"]
+  },
+  {
+    "name":       "Xu Wu",
+    "type":       "Cephalopod",
+    "games":      ["Wilds"]
+  },
+  {
+    "name":       "Guardian Arkveld",
+    "type":       "Construct",
+    "games":      ["Wilds"]
+  },
+  {
+    "name":       "Zoh Shia",
+    "type":       "Construct",
+    "games":      ["Wilds"]
+  },
+  {
+    "name":       "Yian Kut-Ku",
+    "type":       "Bird Wyvern",
+    "games":      ["Wilds", "Generations Ultimate", "MH1", "MHG", "Freedom", "MH2", "Freedom 2", "Freedom Unite", "MH4", "MH4U", "Generations"]
+  },
+  {
+    "name":       "Gypceros",
+    "type":       "Bird Wyvern",
+    "games":      ["Wilds", "Generations Ultimate", "MH1", "MHG", "Freedom", "MH2", "Freedom 2", "Freedom Unite", "MH4", "MH4U", "Generations"]
+  },
+  {
+    "name":       "Rathian",
+    "type":       "Flying Wyvern",
+    "games":      ["Wilds", "Generations Ultimate", "World", "Rise", "MH1", "MHG", "Freedom", "MH2", "Freedom 2", "Freedom Unite", "Tri", "3 Ultimate", "MH4", "MH4U", "Generations"]
+  },
+  {
+    "name":       "Guardian Fulgur Anjanath",
+    "type":       "Construct",
+    "games":      ["Wilds"]
+  },
+  {
+    "name":       "Rathalos",
+    "type":       "Flying Wyvern",
+    "games":      ["Wilds", "Generations Ultimate", "World", "Rise", "MH1", "MHG", "Freedom", "MH2", "Freedom 2", "Freedom Unite", "Tri", "3 Ultimate", "MH4", "MH4U", "Generations"]
+  },
+  {
+    "name":       "Gravios",
+    "type":       "Flying Wyvern",
+    "games":      ["Wilds", "Generations Ultimate", "MH1", "MHG", "Freedom", "MH2", "Freedom 2", "Freedom Unite", "MH4", "MH4U", "Generations"]
+  },
+  {
+    "name":       "Blangonga",
+    "type":       "Fanged Beast",
+    "games":      ["Wilds", "Generations Ultimate", "MH2", "Freedom 2", "Freedom Unite", "Generations"]
+  },
+  {
+    "name":       "Gore Magala",
+    "type":       "Demi Elder",
+    "games":      ["Wilds", "Generations Ultimate", "Rise", "Generations", "MH4", "MH4U"]
+  },
+  {
+    "name":       "Arkveld",
+    "type":       "Flying Wyvern",
+    "games":      ["Wilds"]
+  },
+  {
+    "name":       "Mizutsune",
+    "type":       "Leviathan",
+    "games":      ["Wilds", "Generations Ultimate", "Generations"]
+  },
+  {
+    "name":       "Seregios",
+    "type":       "Flying Wyvern",
+    "games":      ["Wilds", "Generations Ultimate", "Rise", "MH4U", "Generations"]
+  },
+  {
+    "name":       "Lagiacrus",
+    "type":       "Leviathan",
+    "games":      ["Wilds", "Generations Ultimate", "Tri", "3 Ultimate", "Generations"]
+  },
+  {
+    "name":       "Omega Planetes",
+    "type":       "???",
+    "games":      ["Wilds"]
+  },
+  {
+    "name":       "Gogmazios",
+    "type":       "Elder Dragon",
+    "games":      ["Wilds", "MH4U"]
+  }
+]
