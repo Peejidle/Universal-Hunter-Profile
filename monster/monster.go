@@ -10,3 +10,8 @@ type Monster struct {
 	MonsterType					string			`json:"type"`
 	MonsterGame					[]string		`json:"games"`
 }
+
+
+func loadMonster() {
+	
+}
