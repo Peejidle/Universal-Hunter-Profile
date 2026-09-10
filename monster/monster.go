@@ -1,3 +1,4 @@
+// Package monster loads and defines monster data for the Universal Hunter Profile app.
 package monster
 
 import (
