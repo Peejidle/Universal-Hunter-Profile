@@ -1,5 +1,10 @@
-// Package monster defines monster data and loading for the Universal Hunter Profile app.
 package monster
+
+import (
+	"encoding/json"
+	"fmt"
+	"os"
+)
 
 type Monster struct {
 	MonsterName string   `json:"name"`
@@ -7,5 +12,18 @@ type Monster struct {
 	MonsterGame []string `json:"games"`
 }
 
-func loadMonster() {
+func LoadMonsters() ([]Monster, error) {
+	rawData, err := os.ReadFile("monsterData.json")
+	if err != nil {
+		fmt.Println("Failed to read data:", err)
+		return nil, err
+	}
+
+	var monsters []Monster
+	err = json.Unmarshal(rawData, &monsters)
+	if err != nil {
+		fmt.Println("Failed to Unmarshal data:", err)
+		return nil, err
+	}
+	return monsters, err
 }
