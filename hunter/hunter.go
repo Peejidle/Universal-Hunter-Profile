@@ -24,3 +24,17 @@ type WeaponUsage struct {
 func NewHunter(name, game string) Hunter {
 	return Hunter{HunterName: name, HunterGame: game, HunterID: uuid.New(), MonsterHunts: []MonsterHunt{}, WeaponUsages: []WeaponUsage{}}
 }
+
+func RecordMonsterHunt(hunter Hunter, monsterName string) Hunter {
+	found := false
+	for i, hunt := range hunter.MonsterHunts {
+		if monsterName == hunt.MonsterName {
+			found = true
+			hunter.MonsterHunts[i].MonsterAmount++
+		}
+	}
+	if !found {
+		hunter.MonsterHunts = append(hunter.MonsterHunts, MonsterHunt{MonsterName: monsterName, MonsterAmount: 1})
+	}
+	return hunter
+}
