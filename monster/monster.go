@@ -14,7 +14,7 @@ type Monster struct {
 }
 
 func LoadMonsters() ([]Monster, error) {
-	rawData, err := os.ReadFile("monsterData.json")
+	rawData, err := os.ReadFile("monster/monsterData.json")
 	if err != nil {
 		fmt.Println("Failed to read data:", err)
 		return nil, err
