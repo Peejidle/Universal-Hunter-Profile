@@ -1,7 +1,11 @@
 // Package hunter defines what a hunter is and what it stores to be used elsewhere
 package hunter
 
-import "github.com/google/uuid"
+import (
+	"fmt"
+
+	"github.com/google/uuid"
+)
 
 type Hunter struct {
 	HunterName   string
@@ -25,7 +29,11 @@ func NewHunter(name, game string) Hunter {
 	return Hunter{HunterName: name, HunterGame: game, HunterID: uuid.New(), MonsterHunts: []MonsterHunt{}, WeaponUsages: []WeaponUsage{}}
 }
 
-func RecordMonsterHunt(hunter Hunter, monsterName string) Hunter {
+func RecordMonsterHunt(hunter Hunter, monsterName string) (Hunter, error) {
+	if monsterName == "" {
+		return hunter, fmt.Errorf("monster name cannot be empty")
+	}
+
 	found := false
 	for i, hunt := range hunter.MonsterHunts {
 		if monsterName == hunt.MonsterName {
@@ -33,8 +41,10 @@ func RecordMonsterHunt(hunter Hunter, monsterName string) Hunter {
 			hunter.MonsterHunts[i].MonsterAmount++
 		}
 	}
+
 	if !found {
 		hunter.MonsterHunts = append(hunter.MonsterHunts, MonsterHunt{MonsterName: monsterName, MonsterAmount: 1})
 	}
-	return hunter
+
+	return hunter, nil
 }
